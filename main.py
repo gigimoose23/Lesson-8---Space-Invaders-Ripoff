@@ -36,7 +36,7 @@ for i in range(8):
         Bullets[-1].x = Ship.x
         Bullets[-1].y = Ship.y - 15
 '''
-
+print("running")
 def display_score():
     global Score
     screen.draw.text(str(Score), (50,50))
